@@ -11,7 +11,7 @@ called a Certificate Authority or CA certificate, but don't think of it as
 coming from an Internet Certificate Authority like Let's Encrypt, etc. The
 signer certificate is a self-signed certificate provided by a NervesHub user
 that's registered to a NervesHub organization. The private key to the signer
-certificate should be kept secret since NervesHub will trust devices.
+certificate should be kept secret since NervesHub will trust devices
 
 NervesHub pins device certificates to simplify authentication for the common
 case and to detect and log unusual events. It can be helpful to think of
