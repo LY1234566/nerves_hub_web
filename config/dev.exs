@@ -5,7 +5,7 @@ ssl_dir =
   |> Path.expand()
 
 config :logger, :console, format: "[$level] $message\n"
-config :phoenix, :stacktrace_depth, 20
+config :phoenix, :stacktrace_depth, 
 
 ##
 # NervesHub Web
