@@ -8,7 +8,7 @@ config :logger, :console, format: "[$level] $message\n"
 config :phoenix, :stacktrace_depth, 
 
 ##
-# NervesHub Web
+# NervesHub 
 #
 config :nerves_hub, NervesHubWeb.Endpoint,
   url: [
